@@ -1,0 +1,79 @@
+body {
+  background: rgb(44, 44, 44);
+}
+
+/* Safari */
+:-webkit-full-screen {
+  background-color: yellowgreen;
+}
+
+/* IE11 */
+:-ms-fullscreen {
+  background-color: yellowgreen;
+}
+
+/* Standard syntax */
+:fullscreen {
+  background-color: yellowgreen;
+}
+
+html, body {
+  height: 95%;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+canvas {
+  border: 1px solid white;
+}
+
+/* Start a index */
+
+Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+p { 
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.bould {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: magenta;
+}
+
+h1{
+  color: magenta;
+}
+
+.NKO {
+  color: black;
+}
+
+.a {
+  color: magenta;
+  background-color: transparent;
+  border: 1px solid magenta;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+.a:hover {
+  background-color: magenta;
+  color: black;
+  transform: scale(1.1);
+}
