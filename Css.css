@@ -1,5 +1,13 @@
 body {
   background: rgb(44, 44, 44);
+  font-family: 'Arial', sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  animation: fadeIn 1.5s ease-in-out;
 }
 
 /* Safari */
@@ -35,12 +43,13 @@ Section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: auto;
+  height: 80%;
+  width: 50%;
   border: 1px solid black;
   padding: 10px;
   text-align: center;
   border-radius: 20px;
+  margin-left: 25%;
 }
 
 p { 
