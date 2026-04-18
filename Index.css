@@ -20,14 +20,14 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-   /* transition: 1s; */
+    transition: 1s; 
 }
 
-/*main:hover {
+main:hover {
     box-shadow: 0 0 10px magenta, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta;
-    border-color:;
+    border-color: rgb(255, 0, 255);
 }
-
+/*
 main p {
     text-align: center;
     width: 75%;
