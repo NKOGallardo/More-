@@ -27,8 +27,31 @@ main:hover {
     box-shadow: 0 0 10px magenta, 0 0 20px magenta, 0 0 30px magenta, 0 0 40px magenta;
     border-color: rgb(255, 0, 255);
 }
-/*
+
 main p {
     text-align: center;
     width: 75%;
+}
+
+main .NKO {
+    font-weight: bold;
+    color: magenta;
+    text-decoration: underline;
+}
+
+main .button-game {
+    padding: 10px 20px;
+    background-color: magenta;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+main .button-email {
+    padding: 10px 20px;
+    background-color: magenta;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
 }
